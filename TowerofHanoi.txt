@@ -1,0 +1,4 @@
+.data
+label1: .asciiz "Enter  no of discs:\n"
+label2: .asciiz "Result is: "
+
