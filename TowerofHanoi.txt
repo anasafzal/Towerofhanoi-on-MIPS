@@ -2,3 +2,11 @@
 label1: .asciiz "Enter  no of discs:\n"
 label2: .asciiz "Result is: "
 
+.text
+main:
+la $a0,label1
+li $v0,4
+syscall
+li $v0,5
+syscall
+move $t0,$v0
